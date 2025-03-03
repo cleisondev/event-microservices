@@ -58,5 +58,7 @@ public class EventService {
 
         EmailRequestDTO emailRequest = new EmailRequestDTO(participantEmail, "Confirmação de Inscrição", "Você foi inscrito no evento com sucesso!");
 
+        emailServiceClient.sendEmail(emailRequest);
+
     }
 }

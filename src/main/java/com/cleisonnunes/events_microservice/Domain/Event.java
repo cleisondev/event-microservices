@@ -9,7 +9,6 @@ import lombok.*;
 @Entity(name="event")
 @Table(name="event")
 @AllArgsConstructor
-@NoArgsConstructor
 @EqualsAndHashCode(of="id")
 public class Event {
 
